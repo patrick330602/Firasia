@@ -1,6 +1,5 @@
-# Sarasa Gothic (更纱黑体 / 更紗黑體 / 更紗ゴシック)
-
-This is SARASA GOTHIC, a Chinese & Japanese programming font based on Iosevka and Source Han Sans.
+# Firasia
+This is Firasia, a fork of SARASA GOTHIC based on Fira Code and Source Han Sans.
 
 ## To build
 
@@ -25,13 +24,3 @@ node build ttc
 ```
 
 instead, the files would be in `build/ttc` directory.
-
-## What are the names?
-
-- LGC set being Nono Sans
-  - Quotes (`“”`) are full width —— Gothic
-  - Quotes (`“”`) are narrow —— UI
-- LGC set being Iosevka
-  - Have ligature, Em dashes (`——`) are full width —— MonoT
-  - Have ligature, Em dashes (`——`) are half width —— Mono
-  - No ligature, Em dashes (`——`) are half width —— Term

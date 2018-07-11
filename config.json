@@ -14,10 +14,8 @@
 				"zh_TW": "Firasia",
 				"ja_JP": "Firasia"
 			}
-
 		}
 	},
-
 	"styleOrder": ["regular", "bold", "light", "medium", "retina"],
 	"styles": {
 		"regular": { "name": "Regular" },
@@ -26,7 +24,6 @@
 		"medium": {"name": "Medium"},
 		"retina": {"name": "Retina"}
 	},
-
 	"subfamilyOrder": ["cl", "sc", "tc", "j"],
 	"subfamilies": {
 		"cl": { "name": "CL" },
