@@ -24,3 +24,7 @@ node build ttc
 ```
 
 instead, the files would be in `build/ttc` directory.
+
+# License
+
+See License.
