@@ -257,7 +257,7 @@ module.exports = function(ctx, the) {
 		await this.need(...STYLES.map(st => `out/ttc/${PREFIX}-${st}.ttc`));
 	});
 
-	the.file(`out/sarasa-gothic-ttc-${version}.7z`).def(async function(target) {
+	the.file(`out/firasia-ttc-${version}.7z`).def(async function(target) {
 		await this.need(`ttc`);
 		await this.cd(`out/ttc`).run(
 			`7z`,
@@ -269,7 +269,7 @@ module.exports = function(ctx, the) {
 			`*.ttc`
 		);
 	});
-	the.file(`out/sarasa-gothic-ttf-${version}.7z`).def(async function(target) {
+	the.file(`out/firasia-ttf-${version}.7z`).def(async function(target) {
 		await this.need(`ttf`);
 		await this.cd(`out/ttf`).run(
 			`7z`,
@@ -282,8 +282,8 @@ module.exports = function(ctx, the) {
 		);
 	});
 
-	ctx.want(`out/sarasa-gothic-ttc-${version}.7z`);
-	ctx.want(`out/sarasa-gothic-ttf-${version}.7z`);
+	ctx.want(`out/firasia-ttc-${version}.7z`);
+	ctx.want(`out/firasia-ttf-${version}.7z`);
 
 	// cleanup
 	the.virt("clean").def(async function(target) {

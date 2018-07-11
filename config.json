@@ -1,76 +1,30 @@
 {
-	"prefix": "sarasa",
+	"prefix": "firasia",
 	"CVT_PADDING": 300,
 
-	"familyOrder": ["gothic", "ui", "mono", "monoT", "term"],
+	"familyOrder": ["code"],
 	"families": {
-		"gothic": {
-			"isMono": false,
-			"latinGroup": "noto-sans",
-			"naming": {
-				"en_US": "Sarasa Gothic",
-				"zh_CN": "更纱黑体",
-				"zh_TW": "更紗黑體",
-				"ja_JP": "更紗ゴシック"
-			}
-		},
-		"ui": {
-			"isPWID": true,
-			"isMono": false,
-			"latinGroup": "noto-sans",
-			"naming": {
-				"en_US": "Sarasa UI",
-				"zh_CN": "更纱黑体 UI",
-				"zh_TW": "更紗黑體 UI",
-				"ja_JP": "更紗ゴシック UI"
-			}
-		},
-		"mono": {
-			"isMono": true,
-			"latinGroup": "iosevka",
-			"naming": {
-				"en_US": "Sarasa Mono",
-				"zh_CN": "等距更纱黑体",
-				"zh_TW": "等距更紗黑體",
-				"ja_JP": "更紗等幅ゴシック"
-			}
-		},
-		"monoT": {
+		"code": {
 			"isMono": true,
 			"isType": true,
-			"latinGroup": "iosevka",
+			"latinGroup": "firacode",
 			"naming": {
-				"en_US": "Sarasa Mono T",
-				"zh_CN": "等距更纱黑体 T",
-				"zh_TW": "等距更紗黑體 T",
-				"ja_JP": "更紗等幅ゴシック T"
+				"en_US": "Firasia",
+				"zh_CN": "Firasia",
+				"zh_TW": "Firasia",
+				"ja_JP": "Firasia"
 			}
-		},
-		"term": {
-			"isMono": true,
-			"latinGroup": "iosevka-term",
-			"isTerm": true,
-			"naming": {
-				"en_US": "Sarasa Term",
-				"zh_CN": "Sarasa Term",
-				"zh_TW": "Sarasa Term",
-				"ja_JP": "Sarasa Term"
-			}
+
 		}
 	},
 
-	"styleOrder": ["regular", "bold", "italic", "bolditalic"],
+	"styleOrder": ["regular", "bold", "light", "medium", "retina"],
 	"styles": {
 		"regular": { "name": "Regular" },
 		"bold": { "name": "Bold" },
-		"italic": {
-			"name": "Italic",
-			"uprightStyleMap": "regular"
-		},
-		"bolditalic": {
-			"name": "Bold Italic",
-			"uprightStyleMap": "bold"
-		}
+		"light": {"name": "Light"},
+		"medium": {"name": "Medium"},
+		"retina": {"name": "Retina"}
 	},
 
 	"subfamilyOrder": ["cl", "sc", "tc", "j"],
