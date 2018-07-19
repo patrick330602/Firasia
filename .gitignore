@@ -2,6 +2,7 @@ bin/
 build/
 node_modules/
 references/
+out/
 doc/
 preview/test-fonts
 .typeSXS_public
