@@ -1,4 +1,6 @@
 # Firasia
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpatrick330602%2FFirasia.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpatrick330602%2FFirasia?ref=badge_shield)
+
 This is Firasia, a fork of SARASA GOTHIC based on Fira Code and Source Han Sans.
 
 ## To build
@@ -28,3 +30,5 @@ instead, the files would be in `build/ttc` directory.
 # License
 
 See License.
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpatrick330602%2FFirasia.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpatrick330602%2FFirasia?ref=badge_large)
